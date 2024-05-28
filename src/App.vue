@@ -1,8 +1,15 @@
 <template>
-  <div id="app">
-    <h1>Título da Página</h1>
-    <input v-model="inputText" placeholder="Escreva algo.." />
-    <button @click="showAlert">Chamar função</button>
+  <div id="app" class="container mt-5">
+    <h1 class="text-center mb-4">Título da Página</h1>
+    <div class="mb-3">
+      <input
+        v-model="inputText"
+        type="text"
+        class="form-control"
+        placeholder="Escreva algo..."
+      />
+    </div>
+    <button class="btn btn-primary" @click="showAlert">Chamar função</button>
   </div>
 </template>
 
@@ -19,7 +26,7 @@ export default {
       alert(this.inputText);
     },
   },
-}
+};
 </script>
 
 <style>
