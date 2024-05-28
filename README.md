@@ -1,26 +1,11 @@
-npm init -y
-npm install
-npm install vue@3
-npm install vite --save-dev
-npm install @vitejs/plugin-vue --save-dev
-npm install --save-dev vitest @vue/test-utils
-npm install jsdom @vitest/ui --save-dev
-npm install @testing-library/jest-dom --save-dev
-npm install --save-dev @testing-library/jest-dom
+# HELLO WORLD
 
-docker-compose up -d
-Acesse: http://localhost:9000
-Crie um projeto e pegue um token
+## Uma página simples no Vue JS 3 com testes unitários utilizando o Vitest e o Sonar configurado para testar os códigos
 
-npm install --save-dev sonarqube-scanner
-npm install @vitest/coverage-v8 --save-dev
-
-# Nome do projeto
-
-## A primeira coisa a se fazer ao baixar um projeto é dar um
+### A primeira coisa a se fazer ao baixar um projeto é dar um
 
 ```
-npm install OU npm i
+npm install
 ```
 
 ### Para compilar o projeto
